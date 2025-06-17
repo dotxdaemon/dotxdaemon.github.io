@@ -1,0 +1,15 @@
+<!doctype html>
+<title>Cinematography Uploads</title>
+<h1>Upload Image</h1>
+<form method="post" enctype="multipart/form-data">
+  <input type="file" name="file">
+  <input type="submit" value="Upload">
+</form>
+{% if files %}
+<h2>Uploaded Images</h2>
+<ul>
+  {% for file in files %}
+    <li><a href="{{ url_for('uploaded_file', filename=file) }}">{{ file }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
