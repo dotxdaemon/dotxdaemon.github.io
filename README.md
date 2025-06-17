@@ -1,6 +1,6 @@
 # Cinematography Image Uploader
 
-This repository contains a simple Flask application that lets you upload and store images.
+This repository contains a simple Flask application that lets you upload and view images.
 
 ## Setup
 
@@ -14,4 +14,4 @@ This repository contains a simple Flask application that lets you upload and sto
    python app.py
    ```
 
-The application will start on `http://127.0.0.1:5000/`. Open this address in your browser to upload images. Uploaded files are saved in the `uploads/` directory.
+The application will start on `http://127.0.0.1:5000/`. Open this address in your browser to upload images. Uploaded files are saved in the `uploads/` directory and will be displayed on the main page after upload.
