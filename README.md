@@ -11,3 +11,14 @@ npm start       # builds and serves with live reload
 ```
 
 Blog posts are written in Markdown inside `src/posts/`.
+
+## GitHub Pages
+
+This project ships with a workflow that builds the site on every push to
+`main` and deploys it using [GitHub Pages](https://pages.github.com/). To
+enable automatic deployments:
+
+1. Open the repository settings and enable **GitHub Pages** with the
+   **GitHub Actions** option.
+2. The site will be available at `https://<username>.github.io/` after the
+   first successful workflow run.
