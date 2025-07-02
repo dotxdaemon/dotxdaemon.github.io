@@ -1,7 +1,7 @@
 {
-  "name": "cinematography-gallery",
+  "name": "personal-blog",
   "version": "1.0.0",
-  "description": "Eleventy site for cinematography shots",
+  "description": "A simple personal blog built with Eleventy",
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
